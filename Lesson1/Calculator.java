@@ -21,7 +21,10 @@ public class Calculator {
 		else if (znak == '*') {
 			System.out.println(a * b);
 		}
-		else {System.out.println(a % b);
+		else if (znak == '%') { 
+			System.out.println(a % b);
 		}
+		else System.out.println(a ^ b);
 	}
 }
+
