@@ -18,6 +18,6 @@ public class GuessNumber {
 			else {
 			System.out.println("Введенное вами число меньше того, что загадал компьютер");
 		}
-		} while (number == a);
+		} while (number != a);
 	}
 }
